@@ -1,0 +1,288 @@
+body{
+     background-image: url("./shara\ desert.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+ }
+ .logo
+ {
+     height:50px;
+     width:50px;
+     position: relative;
+     top:40px;
+     left: 175px;
+     border-radius: 5px;
+ }
+ .list
+ {
+     position: relative;
+     float:right;
+     right:20px;
+
+ }
+ 
+
+.list ul li
+{
+     list-style: none;
+     display: inline;
+     padding: 20px;
+     color:white;
+
+ }
+.text h1
+{
+     color:rgb(55, 255, 0);
+     font-size: 63px;
+     float: left;
+     position: relative;
+     top:200px;
+     left:80px;
+}
+.text p
+{
+    color:white;
+    position: relative;
+    top:285px;
+    left:-190px;
+    font-size: 19px;
+}
+.text1 button
+{
+     width:15%;
+     border-radius: 40px;
+     padding:20px;
+     border:0px solid white;
+     font-weight:bold;
+     font-size:18px;
+     position:relative;
+     top:350px;
+     left:20px;
+ }
+
+ .flex-container1 img
+{
+       border-radius: 30px;
+
+}
+.flex-container2 img
+{
+     border-radius: 30px;
+}
+.flex-container1
+{
+     display: flex;
+     flex-direction: row;
+     float:right;
+     flex-wrap: wrap;
+     position: relative;
+     top:-160px;
+     right:40px;
+    
+     
+}.flex-container1>div
+{
+     margin-right: 20px;
+     
+}
+.flex-container2
+{
+     display: flex;
+     flex-direction: row;
+     float:right;
+     flex-wrap: wrap;
+     position: relative;
+     top: 40px;
+     right:-410px;
+}
+.flex-container2>div
+ {
+     margin-right: 10px;
+     
+     
+ }
+.card1
+{
+    position: relative;
+    top:80px;
+}
+.card2 img
+{
+     position: relative;
+     top: 80px;
+}
+.flex-container1 img:hover
+{
+     padding-bottom: 30px;
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+     border-bottom-right-radius: 40px;
+     border-bottom-left-radius: 40px;
+}
+  .flex-container2 img:hover
+  {
+     padding-bottom: 30px;
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+     border-bottom-right-radius: 40px;
+     border-bottom-left-radius: 40px;
+}
+@media(max-width:400px)
+{
+     
+     .list
+     {
+         position: relative;
+         float:right;
+         top:25px;
+         right:23px;
+}
+.list ul li
+{
+         list-style: none;
+         display: block;
+         padding: 5px;
+         color:white;
+}
+.test h1
+{
+       
+         font-size: 30px;
+         float: left;
+         position: relative;
+         top:20px;
+         left:20px;
+}
+.flex-container2
+{
+         display: flex;
+         flex-direction: row;
+         float:left;
+         flex-wrap: column;
+         position: relative;
+         top:90px;
+         right:10px;
+         left:30px;
+         bottom:0px;
+         box-sizing: border-box;
+         
+}
+.flex-container2>div
+{
+         margin-bottom: 10px;
+   
+}
+.flex-container1
+{
+         display: flex;
+         flex-direction: column;
+         float:left;
+         flex-wrap: wrap;
+         position: relative;
+         top:50px;
+         left:29px;
+         right:20px;
+         bottom:-90px;
+         box-sizing: border-box;
+         
+}
+.flex-container1>div
+{
+         margin-bottom: 7px;
+         
+}
+.test p
+{
+         
+         position: relative;
+         top:50px;
+         left:5px;
+         font-size: 13px;
+         text-align: justify;
+}
+.text1 button
+{
+         width:45%;
+         border-radius: 40px;
+         padding:10px;
+         font-weight:bold;
+         font-size:14px;
+         position:relative;
+         top:60px;
+         left:55px;
+         margin: 0 auto;
+         color:black;
+         
+}
+
+}
+
+
+@media(min-width:400px) and (max-width:750px)
+
+{
+
+     
+.flex-container1
+{
+         display: flex;
+         flex-direction: row;
+         float:right;
+         flex-wrap: wrap;
+         position: relative;
+         top:50px;
+         margin-left: -90px;
+
+}
+.flex-container1>div
+{
+         margin-bottom: 0px;
+} 
+.flex-container2
+{
+     display: flex;
+     flex-direction: row;
+     float:left;
+     flex-wrap: wrap;
+     position: relative;
+     top:85px;
+     right:40px;
+     left:20px;
+     bottom:-20px;
+     box-sizing: border-box;
+     
+}
+.flex-container2>div
+{
+     margin-bottom: 10px;
+}
+.text h1
+{
+     
+     font-size: 48px;
+     float: left;
+     position: relative;
+     top:80px;
+     left:0px;
+ }
+.text p
+{
+    position: relative;
+    top:70px;
+    left:0px;
+    font-size: 14px;
+    text-align: left;
+
+}
+.text1 button
+{
+ width:35%;
+ border-radius: 40px;
+ padding:10px;
+ color:black;
+  font-weight:bold;
+ font-size:18px;
+ position:relative;
+ top:80px;
+ left:140px;
+}
+}
